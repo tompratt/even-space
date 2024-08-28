@@ -151,6 +151,11 @@ font-family: "RiformaLLTrialWeb-Regular";
   background-position: center;
 
 }
+@media screen and (max-width: 1000px) {
+  .pattern {
+    height: 240%;
+  }
+}
 
 #pattern_grey {
   background-image: url(pattern-grey.png);
