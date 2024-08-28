@@ -140,11 +140,11 @@ font-family: "RiformaLLTrialWeb-Regular";
 }
 
 .pattern {
-  position: fixed;
+  position: absolute;
   top: -30%;
   left: -30%;
   width: 160%;
-  height: 160%;
+  height: 300%;
   z-index: 0;
   background-size: cover;
   background-position: center;
