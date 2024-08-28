@@ -105,7 +105,8 @@ font-family: "RiformaLLTrialWeb-Regular";
   left: 0;
   width: 100%;
   height: 100svh;
-  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 #main_body {
   height: 200svh;
