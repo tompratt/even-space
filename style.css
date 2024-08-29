@@ -149,6 +149,7 @@ font-family: "RiformaLLTrialWeb-Regular";
   z-index: 0;
   background-size: cover;
   background-position: center;
+  filter: blur(2px);
 
 }
 @media screen and (max-width: 1000px) {
@@ -165,7 +166,7 @@ font-family: "RiformaLLTrialWeb-Regular";
 
 #pattern_red {
   background-image: url(pattern-red.png);
-  animation: sway 100s linear infinite;
+  animation: sway 140s linear infinite;
     mix-blend-mode: multiply;
   
 }
