@@ -163,7 +163,7 @@ font-family: "RiformaLLTrialWeb-Regular";
   animation: sway-up-down 80s linear infinite reverse;
    width: 100%;
    left: 0;
-   height: 200%;
+   height: 230%;
 
 
 }
@@ -195,7 +195,7 @@ font-family: "RiformaLLTrialWeb-Regular";
     transform: translate(0%,0%);
   }
   50% {
-    transform: translate(0%,40%);
+    transform: translate(0%,30%);
   }
   100% {
     transform: translate(0%,0%);
