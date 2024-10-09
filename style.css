@@ -110,6 +110,7 @@ font-family: "RiformaLLTrialWeb-Regular";
 }
 #main_body {
   height: 200svh;
+  contain: paint;
 }
 @media screen and (max-width: 1000px) {
   #main_body {
