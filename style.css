@@ -145,11 +145,11 @@ font-family: "RiformaLLTrialWeb-Regular";
   top: -30%;
   left: -30%;
   width: 160%;
-  height: 300%;
+  height: 240%;
   z-index: 0;
   background-size: cover;
   background-position: center;
-  filter: blur(2px);
+  filter: blur(4px);
 
 }
 @media screen and (max-width: 1000px) {
@@ -159,13 +159,17 @@ font-family: "RiformaLLTrialWeb-Regular";
 }
 
 #pattern_grey {
-  background-image: url(pattern-grey.png);
-  animation: sway 80s linear infinite reverse;
+  background-image: url(pattern-grey2.png);
+  animation: sway-up-down 80s linear infinite reverse;
+   width: 100%;
+   left: 0;
+   height: 200%;
+
 
 }
 
 #pattern_red {
-  background-image: url(pattern-red.png);
+  background-image: url(pattern-red2.png);
   animation: sway 140s linear infinite;
     mix-blend-mode: multiply;
   
@@ -173,7 +177,7 @@ font-family: "RiformaLLTrialWeb-Regular";
 
 @keyframes sway {
   0% {
-    transform: rotate(0deg);
+    transform: translate(0%,0%) rotate(0deg);
   }
   33.33% {
     transform: translate(10%,10%) rotate(5deg);
@@ -186,11 +190,24 @@ font-family: "RiformaLLTrialWeb-Regular";
   }
 }
 
+@keyframes sway-up-down {
+  0% {
+    transform: translate(0%,0%);
+  }
+  50% {
+    transform: translate(0%,40%);
+  }
+  100% {
+    transform: translate(0%,0%);
+  }
+}
+
 #text_section {
   background-color: #838569;
-  padding: 50px 0px 250px;
+  padding: 50px 0px 100px;
   position: relative;
   z-index: 21;
+  margin-top: -30px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -250,10 +267,16 @@ font-family: "RiformaLLTrialWeb-Regular";
   }
 }
 
+#bottom_bar_wrap {
+  height: 100svh;
+  background: rgba(yellow,.3);
+}
+
 #bottom_bar {
-  position: fixed;
-  bottom: 0;
-  left: 0;
+  position: sticky;
+  display: block;
+  top: calc(100svh - 0px);
+  transform: translate(0px,-30px);
   width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -262,7 +285,7 @@ font-family: "RiformaLLTrialWeb-Regular";
 }
 
 #bottom_bar div:first-child {
-  background: #38632F;
+  background: #838569;
   height: 30px;
   cursor: pointer;
 }
