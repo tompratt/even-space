@@ -108,6 +108,15 @@ font-family: "RiformaLLTrialWeb-Regular";
   overflow-x: hidden;
   overflow-y: auto;
 }
+#site_wrap::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+#site_wrap {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
 #main_body {
   height: 200svh;
   contain: paint;
@@ -150,7 +159,7 @@ font-family: "RiformaLLTrialWeb-Regular";
   z-index: 0;
   background-size: cover;
   background-position: center;
-  filter: blur(4px);
+  filter: blur(2px);
 
 }
 @media screen and (max-width: 1000px) {
@@ -161,7 +170,7 @@ font-family: "RiformaLLTrialWeb-Regular";
 
 #pattern_grey {
   background-image: url(pattern-grey2.png);
-  animation: sway-up-down 80s linear infinite reverse;
+  /*animation: sway-up-down 80s linear infinite reverse;*/
    width: 100%;
    left: 0;
    height: 230%;
