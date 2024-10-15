@@ -362,7 +362,7 @@ figure {
   background-image: url('pattern-red2.png');
   background-size: cover;
   mix-blend-mode: multiply;
-  animation: text-wave 40s ease-in-out infinite;
+  animation: text-wave 60s ease-in-out infinite;
   pointer-events: none;
   filter: blur(2px);
 }
