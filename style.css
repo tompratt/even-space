@@ -163,7 +163,6 @@ font-family: "RiformaLLTrialWeb-Regular";
   z-index: 0;
   background-size: cover;
   background-position: center;
-  filter: blur(2px);
 
 }
 @media screen and (max-width: 1000px) {
@@ -346,7 +345,6 @@ figure {
   margin: 0px;
   line-height: 0px;
   animation: fade-in 1s ease;
-  filter: blur(2px);
 }
 .si {
   width: 100%; 
@@ -359,12 +357,11 @@ figure {
   left: -10vw;
   width: 120vw;
   height: 100%;
-  background-image: url('pattern-red2.png');
+  background-image: url('pattern-light-grey.jpg');
   background-size: cover;
   mix-blend-mode: multiply;
   animation: text-wave 60s ease-in-out infinite;
   pointer-events: none;
-  filter: blur(2px);
 }
 
 @keyframes text-wave {
