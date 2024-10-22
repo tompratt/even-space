@@ -45,55 +45,12 @@ p, h1, h2, h3, h4, h5, h6 {
   isolation: isolate;
 }
 
-@font-face {
-  font-family: "RiformaLLTrialWeb-Heavy";
-  src: url("fonts/RiformaLLTrialWeb-Heavy.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "RiformaLLTrialWeb-Italic";
-  src: url("fonts/RiformaLLTrialWeb-Italic.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "RiformaLLTrialWeb-Light";
-  src: url("fonts/RiformaLLTrialWeb-Light.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "RiformaLLTrialWeb-BoldItalic";
-  src: url("fonts/RiformaLLTrialWeb-BoldItalic.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "RiformaLLTrialWeb-MediumItalic";
-  src: url("fonts/RiformaLLTrialWeb-MediumItalic.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "RiformaLLTrialWeb-Medium";
-  src: url("fonts/RiformaLLTrialWeb-Medium.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "RiformaLLTrialWeb-Bold";
-  src: url("fonts/RiformaLLTrialWeb-Bold.woff2") format("woff2");
-}
 
 @font-face {
   font-family: "RiformaLLTrialWeb-Regular";
-  src: url("fonts/RiformaLLTrialWeb-Regular.woff2") format("woff2");
+  src: url("fonts/RiformaLLWeb-Regular.woff2") format("woff2");
 }
 
-@font-face {
-  font-family: "RiformaLLTrialWeb-HeavyItalic";
-  src: url("fonts/RiformaLLTrialWeb-HeavyItalic.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "RiformaLLTrialWeb-LightItalic";
-  src: url("fonts/RiformaLLTrialWeb-LightItalic.woff2") format("woff2");
-}
 
 body {
 font-family: "RiformaLLTrialWeb-Regular";
