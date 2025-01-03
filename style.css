@@ -130,7 +130,7 @@ font-family: "RiformaLLTrialWeb-Regular";
 }
 
 #pattern_grey {
-  background-image: url(pattern-grey2.png);
+  background-image: url(pattern-grey4.jpg);
   /*animation: sway-up-down 80s linear infinite reverse;*/
    width: 100%;
    left: 0;
@@ -140,7 +140,7 @@ font-family: "RiformaLLTrialWeb-Regular";
 }
 
 #pattern_red {
-  background-image: url(pattern-red2.png);
+  background-image: url(pattern-red4.jpg);
   animation: sway 140s linear infinite;
     mix-blend-mode: multiply;
   
@@ -303,10 +303,13 @@ figure {
   margin: 0px;
   line-height: 0px;
   animation: fade-in 1s ease;
+  display: block;
+  transform: scale(1.001);
 }
 .si {
   width: 100%; 
-  height: 150vh; 
+  height: 150vh;
+  line-height: 0;
 }
 
 #pattern_red_new {
@@ -314,8 +317,8 @@ figure {
   top: 0;
   left: -10vw;
   width: 120vw;
-  height: 100%;
-  background-image: url('pattern-light-grey.jpg');
+  height: 100svh;
+  background-image: url('pattern-red4.jpg');
   background-size: cover;
   mix-blend-mode: multiply;
   animation: text-wave 60s ease-in-out infinite;
